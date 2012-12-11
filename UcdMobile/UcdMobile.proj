@@ -51,6 +51,7 @@
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="courses.html" />
     <Content Include="index.html" />
     <Content Include="jquery-mobile\images\ajax-loader.png" />
     <Content Include="jquery-mobile\images\ajax-loader.gif" />
@@ -62,6 +63,7 @@
     <Content Include="jquery-mobile\jquery.mobile-1.1.1.min.css" />
     <Content Include="jquery-mobile\jquery.mobile-1.1.1.min.js" />
     <Content Include="js\hello-world.js" />
+    <Content Include="map.html" />
     <Content Include="styles\main.css" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
