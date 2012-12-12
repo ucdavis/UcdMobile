@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="courses.html" />
+    <Content Include="coursedetail.html />
     <Content Include="index.html" />
     <Content Include="jquery-mobile\images\ajax-loader.png" />
     <Content Include="jquery-mobile\images\ajax-loader.gif" />
