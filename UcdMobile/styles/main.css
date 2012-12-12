@@ -18,3 +18,9 @@
 {
     text-align:center;
 }
+
+dt {
+    margin: 35px 0 15px 0;
+    background-color: #DDD;
+    font-weight: normal;
+}
