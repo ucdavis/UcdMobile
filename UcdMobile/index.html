@@ -60,9 +60,18 @@
     });
 
     $('body').on('pageshow', '#campusMap', function (event) {
+
+        var lat = 38.538546409525594;
+        var lng = -121.7726218700409;
+
         // initialize the map
-        var yourStartLatLng = new google.maps.LatLng(38.540727940747765, -121.75349235534668);
-        var map = $('#map_canvas').gmap({ 'center': yourStartLatLng, zoom: 14 });
+        var yourStartLatLng = new google.maps.LatLng(lat, lng);
+        var map = $('#map_canvas').gmap(
+            {
+                'center': yourStartLatLng, zoom: 17
+            });
+
+        map.gmap('addMarker', {'position': lat + ',' + lng});
     });
 </script>
 </body>
