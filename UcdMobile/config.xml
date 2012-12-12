@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.hello-world"
+        id        = "ucdmobile.ucdavis.edu"
         version   = "2.0.0">
     <name>UcdMobile</name>
 
@@ -10,7 +10,7 @@
     </description>
 
     <author href="http://caes.ucdavis.edu" email="support@phonegap.com">
-        CAESDO (Scott Kirkland & Alan Lai)
+        Scott Kirkland and Alan Lai
     </author>
 
     <feature name="http://api.phonegap.com/1.0/device" />
