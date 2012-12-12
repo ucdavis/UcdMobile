@@ -59,12 +59,7 @@
         //$("#coursename").html("dynamic, son!");
     });
 
-    $('body').on('pageinit', '#campusMap', function (event) {
-
-        // replace the existing div
-        var div = $("<div>").attr('id', 'map_canvas').css('height', '300px').css('width', '100%');
-        $("#map_canvas").replaceWith(div);
-
+    $('body').on('pageshow', '#campusMap', function (event) {
         // initialize the map
         var yourStartLatLng = new google.maps.LatLng(38.540727940747765, -121.75349235534668);
         var map = $('#map_canvas').gmap({ 'center': yourStartLatLng, zoom: 14 });
