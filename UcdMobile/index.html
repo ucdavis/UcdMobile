@@ -15,12 +15,14 @@
     </head>
     <body>
         <div data-role="view" id="tabstrip-home" data-title="Hello World!">
-            <h1>Welcome Bob Dobalina (v0.1.1)!</h1>
-            <p>
-                Icenium&trade; enables you to build cross-platform device applications regardless of your 
-                development platform by combining the convenience of a local development toolset with the 
-                power and flexibility of the cloud.
-            </p>
+            <header data-role="header">
+                <div data-role="navbar">
+                    <span data-role="view-title"></span>
+                    <a href="#tabstrip-home" id="home-button" class="nav-button" data-align="right" data-role="button" data-icon="home">Home</a>
+                </div>
+            </header>
+            <h1>Welcome Bob Dobalina (v0.1.2)!</h1>
+            <p>Your recent notifications</p>
             <ul data-role="listview" data-style="inset">
                 <li>
                     <a href="#tabstrip-uiinteraction">
@@ -75,8 +77,9 @@
         <div data-role="layout" data-id="mobile-tabstrip">
             <header data-role="header">
                 <div data-role="navbar">
-                    <a href="#tabstrip-home" id="home-button" class="nav-button" data-align="left" data-role="button" data-icon="home">Home</a>            
+                    <a class="nav-button" data-align="left" data-role="backbutton">Back</a>
                     <span data-role="view-title"></span>
+                    <a href="#tabstrip-home" id="home-button" class="nav-button" data-align="right" data-role="button" data-icon="home">Home</a>
                 </div>
             </header>
 
