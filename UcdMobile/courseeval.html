@@ -1,4 +1,4 @@
-<div data-role="view" id="courseeval" data-title="ABT 49">
+<div data-role="view" id="courseeval" data-title="ABT 49" data-init="initCourseEval">
     <h2>ABT49: Tractor Driving</h2>        
     <form action="#" method="GET">
         <fieldset data-role="controlgroup">
@@ -113,3 +113,9 @@
         </fieldset>
     </form>
 </div>
+
+<script type="text/javascript">
+    function initCourseEval(e){
+        activateTab("#tab-courses");
+    }
+</script>

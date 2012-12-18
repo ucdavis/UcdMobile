@@ -1,4 +1,4 @@
-<div data-role="view" id="coursedetail" data-title="ABT 49">
+<div data-role="view" id="coursedetail" data-title="ABT 49" data-init="initCourseDetail">
     <h2>ABT49: Tractor Driving</h2>        
     <ul data-role="listview" data-style="inset" data-type="group">
         <li>
@@ -47,3 +47,9 @@
         </li>        
     </ul>
 </div>
+
+<script type="text/javascript">
+    function initCourseDetail(e){
+        activateTab("#tab-courses");
+    }
+</script>
