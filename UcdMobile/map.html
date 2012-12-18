@@ -1,0 +1,21 @@
+<div data-role="view" id="map" data-title="Campus Map" data-init="initMap">
+    <h3>Western Center for Agricultural Equipment</h3>
+    <div id="map_canvas" style="width: 100%; height: 300px;"></div>    
+
+    <p>Home of tractor driving!</p>
+</div>
+<script type="text/javascript">
+    function initMap(e) {
+        var lat = 38.538546409525594;
+        var lng = -121.7726218700409;
+
+        // initialize the map
+        var yourStartLatLng = new google.maps.LatLng(lat, lng);
+        var map = e.view.element.find('#map_canvas').gmap(
+        {
+            'center': yourStartLatLng, zoom: 17
+        });
+
+        map.gmap('addMarker', { 'position': lat + ',' + lng });
+    }    
+</script>
