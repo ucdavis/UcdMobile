@@ -22,7 +22,7 @@
                 </div>
             </header>
             <h1>Welcome Bob Dobalina (v0.1.2)!</h1>
-            <p>Your recent notifications <a href="#courses.html">Courses</a></p>
+            <p>Your recent notifications</p>
             <ul class="list" data-role="listview" data-style="inset">
                 <li>
                     <a href="#tabstrip-uiinteraction">
@@ -74,6 +74,67 @@
             </div>
         </div>
 
+        <div data-role="view" id="courses" data-title="Courses">
+            <p>Click on a course for more information, including notifications, building maps, and more.</p><br/>
+            <ul data-role="listview" data-style="inset" data-type="group">
+                <li>
+                    Lectures
+                    <ul class="list">
+                        <li>
+                            <a href="#">
+                            <h3>ABT 49</h3>
+			                <p>Location: <strong>WCAE</strong></p>
+                            <p>Professor: John Deere</p>
+                            <p class="ui-li-aside"><em>Tractor Driving</em></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <h3>MAT-128B</h3>
+			                <p>Location: <strong>147 Olson</strong></p>
+                            <p>Professor: Freund, R</p>
+                            <p class="ui-li-aside"><em>Numerical Analysis</em></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <h3>MAT-167</h3>
+			                <p>Location: <strong>1130 Hart</strong></p>
+                            <p>Professor: Haase, C</p>
+                            <p class="ui-li-aside"><em>Applied Linear Algebra</em></p>
+                            </a>
+                        </li>        
+                    </ul>
+                </li>
+                <li>
+                    Discussions
+                    <ul class="list">
+                        <li>
+                            <a href="#">
+                            <h3>MAT-128B-001</h3>
+			                <p>Location: <strong>1060 Sciences Lab Building</strong></p>
+                            <p>Instructor: Janet Doeson</p>
+                            <p class="ui-li-aside"><em>Numerical Analysis Discussion</em></p>
+                            </a>
+                        </li>        
+                    </ul>
+                </li>
+                <li>
+                    Labs
+                    <ul class="list">
+                        <li>
+                            <a href="#">
+                            <h3>MAT-167</h3>
+		                    <p>Location: <strong>1060 Kemper</strong></p>
+                            <p>Instructor: P. Laplace</p>
+                            <p class="ui-li-aside"><em>Applied Linear Algebras Lab</em></p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
         <div data-role="layout" data-id="mobile-tabstrip">
             <header data-role="header">
                 <div data-role="navbar">
@@ -86,7 +147,7 @@
             <div data-role="footer">
                 <div data-role="tabstrip">
                     <a href="#tabstrip-home" data-icon="home">Home</a>
-                    <a href="#tabstrip-uiinteraction" data-icon="share">UI Interaction</a>
+                    <a href="#courses" data-icon="share">Courses</a>
                     <a href="#tabstrip-geolocation" data-icon="globe">Geolocation</a>
                 </div>
             </div>
