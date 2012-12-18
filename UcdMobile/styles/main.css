@@ -25,27 +25,25 @@ body
     padding: 7px;
 }
 
-.ui-li-heading {
-font-size: 16px;
-font-weight: bold;
-display: block;
-margin: .6em 0;
-text-overflow: ellipsis;
-overflow: hidden;
-white-space: nowrap;
+.list li h3{
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin: .6em 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;    
 }
 
-
-.ui-li-desc {
-font-size: 12px;
-font-weight: normal;
-display: block;
-margin: -.5em 0 .6em;
-text-overflow: ellipsis;
-overflow: hidden;
-white-space: nowrap;
+.list li p {    
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    margin: -.5em 0 .6em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
-
 
 .ui-li-aside {
 float: right;
@@ -54,6 +52,6 @@ text-align: right;
 margin: .3em 0;
 }
 
-.wrap {
+.list li p.wrap {
     white-space: normal;
 }
