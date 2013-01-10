@@ -40,7 +40,7 @@
     <gap:splash src="res/screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" />
     <gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
     <gap:splash src="res/screen/blackberry/screen-225.png"         gap:platform="blackberry" />
-    <gap:splash src="res/screen/ios/ucdseal.png"    gap:platform="ios"     width="320" height="480" />
+    <gap:splash src="res/screen/ios/ucdseal-320-480.png"    gap:platform="ios"     width="320" height="480" />
     <gap:splash src="res/screen/ios/ucdseal.png" gap:platform="ios"     width="640" height="960" />
     <gap:splash src="res/screen/ios/ucdseal.png"      gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="res/screen/ios/ucdseal.png"     gap:platform="ios"     width="1024" height="768" />
